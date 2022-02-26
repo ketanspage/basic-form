@@ -1,0 +1,100 @@
+body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-image: url("https://i.imgur.com/GMmCQHC.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+
+.card {
+    padding: 30px 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: none !important;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+.blue-text {
+    color: #00BCD4
+}
+
+.form-control-label {
+    margin-bottom: 0
+}
+.form-check .form-check-input {
+    float: left;
+    margin-left: -1.5em;
+    margin: auto;
+}
+input,
+textarea,
+button {
+    padding: 8px 15px;
+    border-radius: 5px !important;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 18px !important;
+    font-weight: 300
+}
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #00BCD4;
+    outline-width: 0;
+    font-weight: 400
+}
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+  }  
+.btn-block {
+    text-transform: uppercase;
+    font-size: 15px !important;
+    font-weight: 400;
+    height: 43px;
+    cursor: pointer
+}
+
+.btn-block:hover {
+    color: #fff !important
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+.upload{
+    width: 281px;
+}
